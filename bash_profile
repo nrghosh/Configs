@@ -1,23 +1,29 @@
 ################################
 ######### Nikhil Ghosh #########
 ################################
+######### Bash Profile #########
+################################
+
 
 # Go
 # export GOPATH=$HOME/Desktop/go
 # export PATH="$PATH:$GOPATH/bin"
 
-# Utility Aliases
-alias cl='clear'
-alias ll='ls -lhasr'
-alias weather='curl wttr.in/~Los+Angeles'
-
-# Bash Profile Aliases
-alias bashpf='source ~/.bash_profile'
-alias bashpfe='subl ~/.bash_profile'
+# Utilities
+alias weather='curl wttr.in/~Palo+Alto'											# Weather
+alias profile='subl ~/.bash_profile'											# Edit bash_profile
+alias resource='source ~/.bash_profile'                                         # Source bash_profile
+alias ll='ls -alh'                                                              # List files
+alias llr='ls -alhr'                                                            # List files (reverse)
+alias lls='ls -alhS'                                                            # List files by size
+alias llsr='ls -alhSr'                                                          # List files by size (reverse)
+alias lld='ls -alht'                                                            # List files by date
+alias lldr='ls -alhtr'                                                          # List files by date (reverse)
+alias lldc='ls -alhtU'                                                          # List files by date created
+alias lldcr='ls -alhtUr'                                                        # List files by date created (reverse)
 
 
 # Git Aliases
-
 alias ga='git add'
 alias gaa='git add .'
 alias gb='git branch'
