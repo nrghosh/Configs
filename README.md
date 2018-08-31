@@ -1,2 +1,5 @@
 # Configs
-bash profile and more
+.bash_profile
+- git aliases
+- shortcuts for command line
+- nifty weather trick
