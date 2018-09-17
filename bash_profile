@@ -11,9 +11,11 @@
 
 # Utilities
 alias weather1='curl wttr.in/~Palo+Alto'										# Weather at home
-alias weather1='curl wttr.in/~Middletown'										# Weather at school
+alias weather2='curl wttr.in/~Middletown'										# Weather at school
 alias profile='subl ~/.bash_profile'											# Edit bash_profile
 alias resource='source ~/.bash_profile'                                         # Source bash_profile
+
+# Content listing
 alias ll='ls -alh'                                                              # List files
 alias llr='ls -alhr'                                                            # List files (reverse)
 alias lls='ls -alhS'                                                            # List files by size
@@ -22,6 +24,9 @@ alias lld='ls -alht'                                                            
 alias lldr='ls -alhtr'                                                          # List files by date (reverse)
 alias lldc='ls -alhtU'                                                          # List files by date created
 alias lldcr='ls -alhtUr'                                                        # List files by date created (reverse)
+
+# Quick go-tos 
+alias repos='cd ~/Desktop/Repos/'												# Repos folder
 
 
 # Git Aliases
