@@ -27,6 +27,7 @@ alias lldcr='ls -alhtUr'                                                        
 
 # Quick go-tos 
 alias repos='cd ~/Desktop/Repos/'												# Repos folder
+alias wes='cd ~/Desktop/Wes/'                           # Wesleyan folder
 
 
 # Git Aliases
