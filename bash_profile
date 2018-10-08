@@ -51,3 +51,5 @@ alias gits='git status --short'
 alias gitsl='git status'
 alias gitst='git stash'
 alias gitstp='git stash pop'
+
+set PATH $PATH /usr/local/anaconda3/bin
