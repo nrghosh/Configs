@@ -5,7 +5,7 @@
 ################################
 
 
-# Go
+# Go path for GoLang activities
 # export GOPATH=$HOME/Desktop/go
 # export PATH="$PATH:$GOPATH/bin"
 
