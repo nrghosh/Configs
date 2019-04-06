@@ -5,13 +5,13 @@
 ################################
 
 
-# Go
+# Go path for GoLang activities
 # export GOPATH=$HOME/Desktop/go
 # export PATH="$PATH:$GOPATH/bin"
 
 # Utilities
 alias weather1='curl wttr.in/~Palo+Alto'										# Weather at home
-alias weather2='curl wttr.in/~Middletown'										# Weather at school
+alias weather='curl wttr.in/~Middletown'										# Weather at school
 alias profile='subl ~/.bash_profile'											# Edit bash_profile
 alias resource='source ~/.bash_profile'                                         # Source bash_profile
 alias cpwd="pwd | tr -d '\n' | pbcopy"                                          # Copy working directory to clipboard
