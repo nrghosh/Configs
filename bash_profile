@@ -14,6 +14,7 @@ alias weather1='curl wttr.in/~Palo+Alto'										# Weather at home
 alias weather2='curl wttr.in/~Middletown'										# Weather at school
 alias profile='subl ~/.bash_profile'											# Edit bash_profile
 alias resource='source ~/.bash_profile'                                         # Source bash_profile
+alias cpwd="pwd | tr -d '\n' | pbcopy"                                          # Copy working directory to clipboard
 
 # Content listing
 alias ll='ls -alh'                                                              # List files
@@ -25,7 +26,7 @@ alias lldr='ls -alhtr'                                                          
 alias lldc='ls -alhtU'                                                          # List files by date created
 alias lldcr='ls -alhtUr'                                                        # List files by date created (reverse)
 
-# Quick go-tos 
+# Quick go-tos
 alias repos='cd ~/Desktop/Repos/'												# Repos folder
 alias wes='cd ~/Desktop/Wes/'                           # Wesleyan folder
 
